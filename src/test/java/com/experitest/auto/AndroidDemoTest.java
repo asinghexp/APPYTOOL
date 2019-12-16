@@ -28,6 +28,7 @@ public class AndroidDemoTest extends BaseTest {
 		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.experitest.ExperiBank");
 		dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");
 		dc.setCapability("appVersion", "1.2374");
+		dc.setCapability("testName", "AndroidDemoTest");
 		driver = new AndroidDriver<>(new URL(getProperty("url",cloudProperties) + "/wd/hub"), dc);
 	}
 	
