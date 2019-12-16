@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78367" started-at="2019-12-16T13:15:14Z" finished-at="2019-12-16T13:16:32Z">
+    <groups>
+    </groups>
+    <test name="TestAndroid" duration-ms="63133" started-at="2019-12-16T13:15:14Z" finished-at="2019-12-16T13:16:17Z">
+      <class name="com.experitest.auto.AndroidDemoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.experitest.auto.AndroidDemoTest@31a5c39e]" name="setUp" is-config="true" duration-ms="38701" started-at="2019-12-16T18:45:14Z" finished-at="2019-12-16T18:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@os='android']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.experitest.auto.AndroidDemoTest@31a5c39e]" name="test" duration-ms="16320" started-at="2019-12-16T18:45:52Z" finished-at="2019-12-16T18:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.experitest.auto.AndroidDemoTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="8092" started-at="2019-12-16T18:46:09Z" finished-at="2019-12-16T18:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.AndroidDemoTest -->
+    </test> <!-- TestAndroid -->
+    <test name="TestIOS" duration-ms="78367" started-at="2019-12-16T13:15:14Z" finished-at="2019-12-16T13:16:32Z">
+      <class name="com.experitest.auto.IOSDemoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.experitest.auto.IOSDemoTest@464bee09]" name="setUp" is-config="true" duration-ms="43125" started-at="2019-12-16T18:45:14Z" finished-at="2019-12-16T18:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@os='ios']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.experitest.auto.IOSDemoTest@464bee09]" name="test" duration-ms="29044" started-at="2019-12-16T18:45:57Z" finished-at="2019-12-16T18:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.experitest.auto.IOSDemoTest@464bee09]" name="tearDown" is-config="true" duration-ms="6182" started-at="2019-12-16T18:46:26Z" finished-at="2019-12-16T18:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.IOSDemoTest -->
+    </test> <!-- TestIOS -->
+  </suite> <!-- Suite -->
+</testng-results>
